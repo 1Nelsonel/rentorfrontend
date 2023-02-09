@@ -1,0 +1,12 @@
+.divider {
+    /* divider */
+    position: absolute;
+    height: 0px;
+    left: 0px;
+    right: 0px;
+    top: calc(50% - 0px/2);
+
+    /* grayscale / divider */
+    border: 1px solid #DFE0EB;
+
+}

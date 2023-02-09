@@ -1,25 +1,32 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Login from './Components/Login/Login';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import Dashboard from './Pages/Dashboard/Dashboard';
+// import Landlords from './Pages/Landlords/Landlords';
+// import Locations from './Pages/Locations/Locations';
+// import Properties from './Pages/Properties/Properties';
+// import Tenants from './Pages/Tenants/Tenants';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+      <Login />
+      {/* <Router>
+        <Routes>
+          <Route path="/" element={<Login />} />
+          <Route path="/Dashboard/" element={<Dashboard />} />
+          <Route path="/Landlords/" element={<Landlords />} />
+          <Route path="/Locations/" element={<Locations />} />
+          <Route path="/Properties/" element={<Properties />} />
+          <Route path="/Tenant/" element={<Tenants />} />
+        </Routes>
+      </Router> */}
+
     </div>
   );
 }
 
 export default App;
+

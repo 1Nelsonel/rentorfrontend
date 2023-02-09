@@ -1,0 +1,15 @@
+.body {
+    background-color: #363740;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.d-logo {
+    color: #3751FF;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.text-size {
+    font-size: 0.6rem;
+    font-weight: normal;
+}
