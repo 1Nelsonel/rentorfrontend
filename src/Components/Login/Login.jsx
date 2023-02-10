@@ -5,16 +5,16 @@ import { BrowserRouter as Router,  Link } from 'react-router-dom';
 
 const Login = () => {
   return (
-    <div className="body">
+    <div className="login">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-sm-5">
 
             <div className="card p-5">
               <h3 className="d-logo text-center p-2 fw-1">
-                <Router>
-                  <Link to="/Dashboard">D</Link>
-                </Router>
+               
+                  <Link to="/Dashboard/">D</Link>
+                
                 
               </h3>
               <p className="text-center">Dashboard Kit</p>
@@ -38,7 +38,7 @@ const Login = () => {
                   Submit
                 </button>
 
-                <p className="pt-4">Don’t have an account? <Router><Link href="#">Sign up</Link></Router></p>
+                <p className="pt-4">Don’t have an account? <Link href="#">Sign up</Link></p>
 
               </form>
             </div>

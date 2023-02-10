@@ -3,3 +3,7 @@
     height: 100vh;
     display: flex;
 }
+.main-container {
+    display: flex !important;
+    width: 100%;
+}
